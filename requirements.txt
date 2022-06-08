@@ -1,5 +1,3 @@
 wheel
 cairo-lang
 cairo-nile
-pytest-cairo
-tox

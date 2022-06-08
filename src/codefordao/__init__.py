@@ -6,6 +6,6 @@ except ImportError:
     import importlib_metadata
 
 try:
-    __version__ = importlib_metadata.version("checksfinance-soulmoment")
+    __version__ = importlib_metadata.version("cairo-array-utils")
 except importlib_metadata.PackageNotFoundError:
     __version__ = None

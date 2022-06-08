@@ -39,15 +39,15 @@ from codefordao.utils.array import Array
 Array.save(
   arr_len: felt,
   arr: felt*
-) -> (key: ArrayInfo.key)
+) -> (key: felt)
 
 Array.get_item(
-  key: ArrayInfo.key,
+  key: felt,
   index: felt
 ) -> (res: felt)
 
 Array.get_array(
-  key: ArrayInfo.key,
+  key: felt,
 ) -> (
   arr_len: felt,
   arr: felt*
